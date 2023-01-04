@@ -1,5 +1,5 @@
 body {
-  background: #ecedef;
+  background: #7a2c6d50;
   margin: 0;
   padding: 0;
 }
@@ -9,12 +9,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #f93983;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding-bottom: 20px;
   width: 320px;
 }
+
 .display {
   width: 100%;
   padding-bottom: 20px;
@@ -22,32 +23,40 @@ body {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+
 .theme-black .display {
   background: rgb(23, 29, 31) !important;
   color: white;
 }
+
 .theme-black #display {
   color: white;
 }
+
 .buttons {
   padding: 20px 20px 0 20px;
 }
+
 .theme-black .container {
   background: rgb(41, 41, 41);
 }
+
 .row {
   width: 280px;
   float: left;
 }
+
 .theme {
   padding: 15px 13px 20px 25px;
   text-align: right;
 }
+
 .theme i {
   padding: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.3);
 }
+
 input[type="button"] {
   width: 60px;
   height: 60px;
@@ -55,16 +64,18 @@ input[type="button"] {
   padding: 0;
   margin: 5px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #f93983;
   border: none;
   font-size: 30px;
   line-height: 30px;
   cursor: pointer;
 }
+
 .theme-black input[type="button"] {
   background-color: rgb(41, 41, 41);
   color: white;
 }
+
 input[type="text"] {
   width: 270px;
   height: 60px;
@@ -77,18 +88,24 @@ input[type="text"] {
   line-height: 60px;
   margin: 0 25px;
 }
+
 .equal {
   border-radius: 5px;
   height: 125px !important;
   position: absolute !important;
-  background: #1287fc !important;
+  background: #d47ec2 !important;
   color: #ffffff !important;
 }
 
 .text-primary {
-  color: #1287fc;
+  color: #ffffff;
 }
 
 .theme-black .text-primary {
-  color: #1287fc !important;
+  color: #f93983 !important;
+}
+
+.theme-black .equal {
+  background: #f93983 !important;
+  color: #ffffff !important;
 }
